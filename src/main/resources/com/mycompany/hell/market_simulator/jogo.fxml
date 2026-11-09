@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.*?>
+<VBox alignment="CENTER" spacing="14" xmlns="http://javafx.com/javafx/13" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.mycompany.hell.market_simulator.Controller.JogoController">
+    <Label text="Painel do Mercado"/>
+    <Label text="Nome do jogador:"/><TextField fx:id="nomeJogador" promptText="Digite seu nome"/>
+    <Button text="Criar jogador e iniciar jornada (saldo inicial R$ 500)" onAction="#iniciar"/>
+    <Label fx:id="saldo" text="Saldo: --"/>
+    <Label fx:id="mensagem" text=""/>
+    <HBox spacing="10">
+        <Button text="Contratos" onAction="#contratos"/>
+        <Button text="Estoque / Produtos" onAction="#estoque"/>
+        <Button text="Upgrades" onAction="#upgrades"/>
+    </HBox>
+    <Button text="Menu principal" onAction="#menu"/>
+</VBox>

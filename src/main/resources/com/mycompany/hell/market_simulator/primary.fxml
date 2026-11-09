@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<VBox alignment="CENTER" spacing="20" xmlns="http://javafx.com/javafx/13" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.mycompany.hell.market_simulator.Controller.PrimaryController">
+    <Label text="HELL MARKET SIMULATOR"/>
+    <Button text="Jogar" onAction="#jogar"/>
+    <Button text="Como Jogar" onAction="#comoJogar"/>
+    <Button text="Sair" onAction="#sair"/>
+</VBox>

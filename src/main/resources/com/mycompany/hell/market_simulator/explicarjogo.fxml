@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+<BorderPane xmlns="http://javafx.com/javafx/13" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.mycompany.hell.market_simulator.Controller.ComoJogarController">
+    <top><Label text="Como Jogar"/></top>
+    <center><VBox spacing="12">
+        <Label text="1. Cadastre seu jogador e inicie uma jornada."/>
+        <Label text="2. Escolha um contrato oferecido pelos demônios."/>
+        <Label text="3. Separe os produtos solicitados e administre seu estoque."/>
+        <Label text="4. Use o dinheiro recebido para repor produtos e evoluir o mercado."/>
+        <Label text="5. Cuidado para não ficar sem dinheiro: a falência encerra a jornada."/>
+        <Label text="6. Prepare-se para o contrato final de Lúcifer."/>
+    </VBox></center>
+    <bottom><Button text="Voltar ao menu" onAction="#voltar"/></bottom>
+</BorderPane>

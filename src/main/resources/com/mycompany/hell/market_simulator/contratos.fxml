@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.*?>
+<VBox spacing="12" xmlns="http://javafx.com/javafx/13" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.mycompany.hell.market_simulator.Controller.ContratosController">
+    <Label text="Contratos disponíveis"/>
+    <ListView fx:id="listaContratos" prefHeight="330"/>
+    <Label fx:id="mensagem" text="Selecione um contrato para visualizar."/>
+    <Button text="Marcar contrato como concluído" onAction="#concluir"/>
+    <Button text="Voltar" onAction="#voltar"/>
+</VBox>

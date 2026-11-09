@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.*?>
+<VBox spacing="12" xmlns="http://javafx.com/javafx/13" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.mycompany.hell.market_simulator.Controller.UpgradesController">
+    <Label text="Melhorias do mercado"/>
+    <ListView fx:id="lista" prefHeight="300"/>
+    <Label fx:id="mensagem"/>
+    <Button text="Voltar" onAction="#voltar"/>
+</VBox>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.*?>
+<VBox spacing="10" xmlns="http://javafx.com/javafx/13" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.mycompany.hell.market_simulator.Controller.EstoqueController">
+    <Label text="Estoque e cadastro de produtos"/>
+    <ListView fx:id="listaProdutos" prefHeight="260" onMouseClicked="#selecionar"/>
+    <Label text="Nome"/><TextField fx:id="nome"/>
+    <Label text="Categoria"/><TextField fx:id="categoria"/>
+    <Label text="Preço"/><TextField fx:id="preco"/>
+    <Label text="Quantidade em estoque"/><TextField fx:id="quantidade"/>
+    <HBox spacing="10">
+        <Button text="Cadastrar" onAction="#inserir"/>
+        <Button text="Atualizar selecionado" onAction="#atualizar"/>
+        <Button text="Excluir selecionado" onAction="#excluir"/>
+    </HBox>
+    <Label fx:id="mensagem"/>
+    <Button text="Voltar" onAction="#voltar"/>
+</VBox>
